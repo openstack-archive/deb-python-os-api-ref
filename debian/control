@@ -38,8 +38,10 @@ Testsuite: autopkgtest-pkg-python
 
 Package: python-os-api-ref
 Architecture: all
-Depends: python-os-api-ref-common,
+Depends: python-docutils,
+         python-os-api-ref-common,
          python-pbr (>= 1.6),
+         python-sphinx (>= 1.1.2),
          python-yaml (>= 3.1.0),
          ${misc:Depends},
          ${python:Depends},
@@ -60,7 +62,9 @@ Description: Sphinx Extensions to support API reference sites in OpenStack - Pyt
 Package: python3-os-api-ref
 Architecture: all
 Depends: python-os-api-ref-common,
+         python3-docutils,
          python3-pbr (>= 1.6),
+         python3-sphinx (>= 1.1.2),
          python3-yaml (>= 3.1.0),
          ${misc:Depends},
          ${python:Depends},
