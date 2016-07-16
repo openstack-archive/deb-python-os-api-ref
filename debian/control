@@ -34,6 +34,7 @@ Standards-Version: 3.9.8
 Vcs-Git: https://anonscm.debian.org/git/openstack/python-os-api-ref.git
 Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-os-api-ref.git
 Homepage: https://github.com/openstack/python-os-api-ref
+Testsuite: autopkgtest-pkg-python
 
 Package: python-os-api-ref
 Architecture: all
