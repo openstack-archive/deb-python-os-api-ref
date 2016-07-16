@@ -1,0 +1,36 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: os-api-ref
+Source: https://github.com/openstack/os-api-ref
+Files-Excluded: os_api_ref/assets/bootstrap.*
+                os_api_ref/assets/glyphicons-halflings-regular.*
+
+Files: *
+Copyright: (c) 2016, Graham Hayes <graham.hayes@hpe.com>
+           (c) 2016, Karen Bradshaw <kbhawkey@gmail.com>
+           (c) 2016, Sean Dague <sean@dague.net>
+           (c) 2016, tengqm <tengqim@cn.ibm.com>
+License: Apache-2.0
+
+Files: setup.py
+Copyright: (c) 2013, Hewlett-Packard Development Company, L.P.
+License: Apache-2.0
+
+Files: debian/*
+Copyright: (c) 2016, Ondřej Nový <onovy@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+     http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian-based systems the full text of the Apache version 2.0 license
+ can be found in `/usr/share/common-licenses/Apache-2.0'.

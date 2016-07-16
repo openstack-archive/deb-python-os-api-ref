@@ -1,0 +1,26 @@
+Description: Move assets to /usr/share
+Author: Ondřej Nový <onovy@debian.org>
+Forwarded: not-needed
+Last-Update: 2016-07-16
+
+--- a/os_api_ref/__init__.py
++++ b/os_api_ref/__init__.py
+@@ -539,16 +539,13 @@
+ 
+ def copy_assets(app, exception):
+     assets = ('bootstrap.min.css', 'api-site.css',
+-              'bootstrap.min.js', 'api-site.js',
+-              'glyphicons-halflings-regular.ttf',
+-              'glyphicons-halflings-regular.woff')
++              'bootstrap.min.js', 'api-site.js')
+     if app.builder.name != 'html' or exception:
+         return
+     app.info('Copying assets: %s' % ', '.join(assets))
+     for asset in assets:
+         dest = os.path.join(app.builder.outdir, '_static', asset)
+-        source = os.path.abspath(os.path.dirname(__file__))
+-        copyfile(os.path.join(source, 'assets', asset), dest)
++        os.symlink(os.path.join(os.sep, 'usr', 'share', 'python-os-api-ref', asset), dest)
+ 
+ 
+ def add_assets(app):

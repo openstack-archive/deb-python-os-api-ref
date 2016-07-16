@@ -1,0 +1,6 @@
+version=3
+opts=uversionmangle=s/(rc|a|b|c)/~$1/,\
+dversionmangle=s/\+dfsg\d*$//,\
+repacksuffix=+dfsg1,\
+filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/python-os-api-ref-$1\.tar\.gz/ \
+https://github.com/openstack/os-api-ref/tags .*/v?(\d\S*)\.tar\.gz

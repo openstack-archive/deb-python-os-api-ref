@@ -1,0 +1,96 @@
+Source: python-os-api-ref
+Section: python
+Priority: extra
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+           Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               openstack-pkg-tools (>= 51),
+               python-all,
+               python3-all,
+Build-Depends-Indep: python-bs4,
+                     python-oslosphinx (>= 2.5.0),
+                     python-pbr (>= 1.6),
+                     python-setuptools,
+                     python-sphinx (>= 1.1.2),
+                     python-sphinx-testing,
+                     python-subunit (>= 0.0.18),
+                     python-testrepository (>= 0.0.18),
+                     python-testtools (>= 1.4.0),
+                     python-yaml (>= 3.1.0),
+                     python3-bs4,
+                     python3-oslosphinx (>= 2.5.0),
+                     python3-pbr (>= 1.6),
+                     python3-setuptools,
+                     python3-sphinx (>= 1.1.2),
+                     python3-sphinx-testing,
+                     python3-subunit (>= 0.0.18),
+                     python3-testrepository (>= 0.0.18),
+                     python3-testtools (>= 1.4.0),
+                     python3-yaml (>= 3.1.0),
+                     subunit,
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/openstack/python-os-api-ref.git
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-os-api-ref.git
+Homepage: https://github.com/openstack/python-os-api-ref
+
+Package: python-os-api-ref
+Architecture: all
+Depends: python-os-api-ref-common,
+         python-pbr (>= 1.6),
+         python-yaml (>= 3.1.0),
+         ${misc:Depends},
+         ${python:Depends},
+Description: Sphinx Extensions to support API reference sites in OpenStack - Python 2.7
+ This project is a collection of sphinx stanzas that assist in building an API
+ Reference site for an OpenStack project in RST. RST is great for unstructured
+ English, but displaying semi structured (and repetitive) data in tables is
+ not it's strength. This provides tooling to insert semi-structured data
+ describing request and response parameters, and turn those into nice tables.
+ .
+ The project also includes a set of styling (and javascript) that is expected
+ to layer on top of an oslosphinx theme base. This provides a nice set of
+ collapsing sections for REST methods and javascript controls to expand /
+ collapse all sections.
+ .
+ This package contains the Python 2.7 module.
+
+Package: python3-os-api-ref
+Architecture: all
+Depends: python-os-api-ref-common,
+         python3-pbr (>= 1.6),
+         python3-yaml (>= 3.1.0),
+         ${misc:Depends},
+         ${python:Depends},
+Description: Sphinx Extensions to support API reference sites in OpenStack - Python 3.x
+ This project is a collection of sphinx stanzas that assist in building an API
+ Reference site for an OpenStack project in RST. RST is great for unstructured
+ English, but displaying semi structured (and repetitive) data in tables is
+ not it's strength. This provides tooling to insert semi-structured data
+ describing request and response parameters, and turn those into nice tables.
+ .
+ The project also includes a set of styling (and javascript) that is expected
+ to layer on top of an oslosphinx theme base. This provides a nice set of
+ collapsing sections for REST methods and javascript controls to expand /
+ collapse all sections.
+ .
+ This package contains the Python 3.x module.
+
+Package: python-os-api-ref-common
+Architecture: all
+Depends: libjs-bootstrap,
+         ${misc:Depends},
+Description: Sphinx Extensions to support API reference sites in OpenStack - common
+ This project is a collection of sphinx stanzas that assist in building an API
+ Reference site for an OpenStack project in RST. RST is great for unstructured
+ English, but displaying semi structured (and repetitive) data in tables is
+ not it's strength. This provides tooling to insert semi-structured data
+ describing request and response parameters, and turn those into nice tables.
+ .
+ The project also includes a set of styling (and javascript) that is expected
+ to layer on top of an oslosphinx theme base. This provides a nice set of
+ collapsing sections for REST methods and javascript controls to expand /
+ collapse all sections.
+ .
+ This package contains the common files.

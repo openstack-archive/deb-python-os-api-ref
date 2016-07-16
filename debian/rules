@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+UPSTREAM_GIT = https://github.com/openstack/os-api-ref.git
+include /usr/share/openstack-pkg-tools/pkgos.make
+
+%:
+	dh $@  --with python2,python3
+
+override_dh_auto_test:
+	pkgos-dh_auto_test
+
+override_dh_auto_install:
+	pkgos-dh_auto_install
