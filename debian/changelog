@@ -1,5 +1,5 @@
-python-os-api-ref (0.3.0+dfsg1-1) UNRELEASED; urgency=medium
+python-os-api-ref (0.3.0+dfsg1-1) experimental; urgency=medium
 
   * Initial release. (Closes: #826580)
 
- -- Ondřej Nový <onovy@debian.org>  Fri, 15 Jul 2016 22:18:53 +0200
+ -- Ondřej Nový <onovy@debian.org>  Sat, 16 Jul 2016 16:23:16 +0200
