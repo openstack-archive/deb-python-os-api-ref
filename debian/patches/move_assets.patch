@@ -1,18 +1,19 @@
-Description: Move assets to /usr/share
+Description: Move assets to /usr/share and use bootstrap from libjs-bootstrap
 Author: Ondřej Nový <onovy@debian.org>
 Forwarded: not-needed
 Last-Update: 2016-07-16
 
 --- a/os_api_ref/__init__.py
 +++ b/os_api_ref/__init__.py
-@@ -539,16 +539,13 @@
+@@ -538,23 +538,19 @@
+ 
  
  def copy_assets(app, exception):
-     assets = ('bootstrap.min.css', 'api-site.css',
+-    assets = ('bootstrap.min.css', 'api-site.css',
 -              'bootstrap.min.js', 'api-site.js',
 -              'glyphicons-halflings-regular.ttf',
 -              'glyphicons-halflings-regular.woff')
-+              'bootstrap.min.js', 'api-site.js')
++    assets = ('bootstrap', 'api-site.css', 'api-site.js')
      if app.builder.name != 'html' or exception:
          return
      app.info('Copying assets: %s' % ', '.join(assets))
@@ -24,3 +25,11 @@ Last-Update: 2016-07-16
  
  
  def add_assets(app):
+-    app.add_stylesheet('bootstrap.min.css')
++    app.add_stylesheet('bootstrap/css/bootstrap.min.css')
+     app.add_stylesheet('api-site.css')
+-    app.add_javascript('bootstrap.min.js')
++    app.add_javascript('bootstrap/js/bootstrap.min.js')
+     app.add_javascript('api-site.js')
+ 
+ 
