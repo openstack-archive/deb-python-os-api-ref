@@ -1,3 +1,9 @@
+python-os-api-ref (0.3.0+dfsg1-2) UNRELEASED; urgency=medium
+
+  * d/copyright: Added more copyright holders of upstream code
+
+ -- Ondřej Nový <onovy@debian.org>  Sun, 17 Jul 2016 12:52:15 +0200
+
 python-os-api-ref (0.3.0+dfsg1-1) experimental; urgency=medium
 
   * Initial release. (Closes: #826580)

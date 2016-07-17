@@ -9,10 +9,8 @@ Copyright: (c) 2016, Graham Hayes <graham.hayes@hpe.com>
            (c) 2016, Karen Bradshaw <kbhawkey@gmail.com>
            (c) 2016, Sean Dague <sean@dague.net>
            (c) 2016, tengqm <tengqim@cn.ibm.com>
-License: Apache-2.0
-
-Files: setup.py
-Copyright: (c) 2013, Hewlett-Packard Development Company, L.P.
+           (c) 2010-2011 OpenStack Foundation
+           (c) 2013 Hewlett-Packard Development Company, L.P.
 License: Apache-2.0
 
 Files: debian/*
