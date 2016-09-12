@@ -1,0 +1,11 @@
+Code-Review+2: Anne Gentle <annegentle@justwriteclick.com>
+Code-Review+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Code-Review+1: Graham Hayes <graham.hayes@hpe.com>
+Code-Review+2: Sean Dague <sean@dague.net>
+Workflow+1: Sean Dague <sean@dague.net>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 29 Aug 2016 13:16:28 +0000
+Reviewed-on: https://review.openstack.org/351297
+Project: openstack/deb-python-os-api-ref
+Branch: refs/heads/master
