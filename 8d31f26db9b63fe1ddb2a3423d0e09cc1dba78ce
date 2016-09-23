@@ -1,0 +1,10 @@
+Code-Review+1: Karen Bradshaw <kbhawkey@gmail.com>
+Code-Review+2: Sean Dague <sean@dague.net>
+Code-Review+2: Anne Gentle <annegentle@justwriteclick.com>
+Workflow+1: Sean Dague <sean@dague.net>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 22 Sep 2016 20:21:54 +0000
+Reviewed-on: https://review.openstack.org/359238
+Project: openstack/deb-python-os-api-ref
+Branch: refs/heads/master
