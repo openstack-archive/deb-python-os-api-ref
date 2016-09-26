@@ -1,6 +1,8 @@
 python-os-api-ref (0.3.0+dfsg1-2) UNRELEASED; urgency=medium
 
   * d/copyright: Added more copyright holders of upstream code
+  * d/s/options: extend-diff-ignore of .gitreview
+  * d/control: Using OpenStack's Gerrit as VCS URLs.
 
  -- Ondřej Nový <onovy@debian.org>  Sun, 17 Jul 2016 12:52:15 +0200
 

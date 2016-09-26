@@ -31,8 +31,8 @@ Build-Depends-Indep: python-bs4,
                      python3-yaml,
                      subunit,
 Standards-Version: 3.9.8
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-os-api-ref.git
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-os-api-ref.git
+Vcs-Git: https://git.openstack.org/openstack/deb-python-os-api-ref -b debian/newton
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-os-api-ref?h=debian%2Fnewton
 Homepage: https://github.com/openstack/python-os-api-ref
 Testsuite: autopkgtest-pkg-python
 
