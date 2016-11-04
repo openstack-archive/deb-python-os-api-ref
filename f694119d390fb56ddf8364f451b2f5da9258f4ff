@@ -1,0 +1,10 @@
+Code-Review+1: venkatamahesh <Venkata.Kotha@infinite.com>
+Code-Review+2: Karen Bradshaw <kbhawkey@gmail.com>
+Code-Review+2: Graham Hayes <graham.hayes@hpe.com>
+Workflow+1: Graham Hayes <graham.hayes@hpe.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 04 Nov 2016 18:14:21 +0000
+Reviewed-on: https://review.openstack.org/380863
+Project: openstack/deb-python-os-api-ref
+Branch: refs/heads/master
