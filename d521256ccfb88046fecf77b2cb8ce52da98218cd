@@ -1,0 +1,10 @@
+Code-Review+2: Graham Hayes <graham.hayes@hpe.com>
+Code-Review+2: Karen Bradshaw <kbhawkey@gmail.com>
+Code-Review+2: Sean Dague <sean@dague.net>
+Workflow+1: Sean Dague <sean@dague.net>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 19 Jan 2017 13:20:24 +0000
+Reviewed-on: https://review.openstack.org/422075
+Project: openstack/deb-python-os-api-ref
+Branch: refs/heads/master
