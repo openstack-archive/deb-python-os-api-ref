@@ -1,0 +1,9 @@
+Code-Review+2: Anne Gentle <annegentle@justwriteclick.com>
+Code-Review+2: Graham Hayes <graham.hayes@hpe.com>
+Workflow+1: Graham Hayes <graham.hayes@hpe.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 15 Feb 2017 16:43:47 +0000
+Reviewed-on: https://review.openstack.org/430014
+Project: openstack/deb-python-os-api-ref
+Branch: refs/heads/master
