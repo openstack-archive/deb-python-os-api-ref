@@ -1,0 +1,8 @@
+Code-Review+2: Graham Hayes <ghayes@suse.de>
+Workflow+1: Graham Hayes <ghayes@suse.de>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 16 May 2017 16:33:48 +0000
+Reviewed-on: https://review.openstack.org/464254
+Project: openstack/deb-python-os-api-ref
+Branch: refs/heads/master
