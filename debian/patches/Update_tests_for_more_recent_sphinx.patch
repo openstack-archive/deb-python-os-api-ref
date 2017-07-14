@@ -1,0 +1,49 @@
+From 32101d84c12b2fcc35d5739aecb33609e997b214 Mon Sep 17 00:00:00 2001
+From: Monty Taylor <mordred@inaugust.com>
+Date: Fri, 12 May 2017 13:54:55 -0500
+Subject: [PATCH] Update tests for more recent sphinx
+Origin: https://github.com/openstack/os-api-ref/commit/32101d84c12b2fcc35d5739aecb33609e997b214
+
+The html output now uses a more compact form for empty col elements.
+Update the tests to account for this.
+
+Change-Id: I055254463e48cc8fdd44c4de7c39595a574afa47
+---
+ os_api_ref/tests/test_basic_example.py | 16 ++++++++--------
+ os_api_ref/tests/test_microversions.py |  8 ++++----
+ 2 files changed, 12 insertions(+), 12 deletions(-)
+
+--- a/os_api_ref/tests/test_basic_example.py
++++ b/os_api_ref/tests/test_basic_example.py
+@@ -80,10 +80,10 @@
+ 
+         table = """<table border="1" class="docutils">
+ <colgroup>
+-<col width="20%"></col>
+-<col width="10%"></col>
+-<col width="10%"></col>
+-<col width="60%"></col>
++<col width="20%"/>
++<col width="10%"/>
++<col width="10%"/>
++<col width="60%"/>
+ </colgroup>
+ <thead valign="bottom">
+ <tr class="row-odd"><th class="head">Name</th>
+--- a/os_api_ref/tests/test_microversions.py
++++ b/os_api_ref/tests/test_microversions.py
+@@ -60,10 +60,10 @@
+         table = """<div class="api-detail collapse section" id="list-servers-detail">
+ <table border="1" class="docutils">
+ <colgroup>
+-<col width="20%"></col>
+-<col width="10%"></col>
+-<col width="10%"></col>
+-<col width="60%"></col>
++<col width="20%"/>
++<col width="10%"/>
++<col width="10%"/>
++<col width="60%"/>
+ </colgroup>
+ <thead valign="bottom">
+ <tr class="row-odd"><th class="head">Name</th>

@@ -30,7 +30,7 @@ Build-Depends-Indep: python-bs4,
                      python3-testtools (>= 1.4.0),
                      python3-yaml,
                      subunit,
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0.4
 Vcs-Git: https://git.openstack.org/openstack/deb-python-os-api-ref -b debian/newton
 Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-os-api-ref?h=debian%2Fnewton
 Homepage: https://github.com/openstack/python-os-api-ref

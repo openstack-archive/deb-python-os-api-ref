@@ -1,2 +1,3 @@
 move_assets.patch
 docutils_0.13.patch
+Update_tests_for_more_recent_sphinx.patch
