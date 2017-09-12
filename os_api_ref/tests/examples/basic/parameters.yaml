@@ -1,6 +1,0 @@
-name:
-  in: body
-  required: true
-  type: string
-  description: |
-    The name of things
